@@ -38,13 +38,16 @@
 }
 
 body {
+  background-color: var(--color-slate-300);
+  font-family: var(--font-family);
+  margin: 0; 
+}
+
+.wrapper {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-slate-300);
-  font-family: var(--font-family);
-  padding: var(--spacing-300);
 }
 
 .card {
