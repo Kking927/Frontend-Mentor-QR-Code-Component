@@ -9,6 +9,10 @@
   --spacing-200: 1rem;
   --spacing-300: 1.5rem;
   --spacing-500: 2.5rem;
+  
+  /* Border Radius */
+  --radius-card: 1.25rem;   /* 20px */
+  --radius-img: 0.625rem;  /* 10px */
 
   /* Typography */
   --font-family: "Outfit", sans-serif;
@@ -46,7 +50,7 @@ body {
   background-color: var(--color-white);
   max-width: min(90vw, 20rem);
   padding: var(--spacing-200);
-  border-radius: 1.25rem;
+  border-radius: var(--radius-card);
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
@@ -54,19 +58,17 @@ body {
 .qr-container {
   width: 100%;
   line-height: 0;
-  margin: 0;
-  margin-bottom: var(--spacing-300);
+  margin: 0 0 var(--spacing-300);
 }
 
 .qr-container img {
   width: 100%;
-  border-radius: 0.625rem;
+  border-radius:var(--radius-img);
   display: block;
 }
 
 .card-content {
-  padding: 0 var(--spacing-200) var(--spacing-300); 
-  text-align: center;
+  padding: 0 var(--spacing-200) var(--spacing-300);
 }
 
 .card-title {
