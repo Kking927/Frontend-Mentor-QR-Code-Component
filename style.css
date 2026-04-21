@@ -83,7 +83,7 @@ body {
 .card-description {
   font-size: var(--fs-preset-2);
   font-weight: var(--fw-regular);
-  line-height: 1.5;
+  line-height: var(--lh-preset-2);
   color: var(--color-slate-500);
   max-width: 15rem;
   margin: 0 auto;
