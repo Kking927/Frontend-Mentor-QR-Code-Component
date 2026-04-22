@@ -6,14 +6,14 @@
   --color-slate-900: #1f314f; /* Heading Text */
 
   /* Spacing */
-  --spacing-200: 1rem;    /* 16px */
+  --spacing-200: 1rem; /* 16px */
   --spacing-250: 1.25rem; /* 20px */
-  --spacing-300: 1.5rem;   /* 24px */
-  --spacing-500: 2.5rem;   /* 40px */
-  
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-500: 2.5rem; /* 40px */
+
   /* Border Radius */
-  --radius-card: 1.25rem;   /* 20px */
-  --radius-img: 0.625rem;  /* 10px */
+  --radius-card: 1.25rem; /* 20px */
+  --radius-img: 0.625rem; /* 10px */
 
   /* Typography */
   --font-family: "Outfit", sans-serif;
@@ -40,7 +40,7 @@
 body {
   background-color: var(--color-slate-300);
   font-family: var(--font-family);
-  margin: 0; 
+  margin: 0;
 }
 
 .wrapper {
@@ -53,7 +53,7 @@ body {
 .card {
   background-color: var(--color-white);
   width: min(100%, 20rem);
-  padding: var(--spacing-250);
+  padding: var(--spacing-200);
   border-radius: var(--radius-card);
   box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -62,17 +62,19 @@ body {
 .qr-container {
   width: 100%;
   line-height: 0;
-  margin: 0 0 var(--spacing-300);
+  margin-bottom: 0.5rem;
 }
 
 .qr-container img {
   width: 100%;
-  border-radius:var(--radius-img);
+  border-radius: var(--radius-img);
   display: block;
 }
 
 .card-content {
-  padding: 0 var(--spacing-200) var(--spacing-250);
+  padding: 0 var(--spacing-200);
+  margin-bottom: var(--spacing-300);
+  margin-top: 1.5rem;
 }
 
 .card-title {
@@ -80,7 +82,7 @@ body {
   font-weight: var(--fw-bold);
   line-height: var(--lh-preset-1);
   color: var(--color-slate-900);
-  margin-bottom: var(--spacing-200); 
+  margin-bottom: var(--spacing-200);
 }
 
 .card-description {
